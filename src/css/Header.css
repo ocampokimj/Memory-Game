@@ -1,0 +1,40 @@
+.header-container {
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+  height: 80vh;
+  margin: 1rem;
+  place-self: center;
+}
+
+.counter-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.current-score {
+  font-size: 35vh;
+  place-self: center;
+  text-shadow: 5px -5px 30px #868686, -5px 5px 30px #ffffff;
+}
+
+.high-score {
+  font-size: 3vh;
+  justify-items: start;
+  color: white;
+  text-transform: uppercase;
+  align-self: end;
+  text-align: center;
+}
+.game-title {
+  font-size: 4vh;
+}
+.logo {
+  font-size: 4vh;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 15px -15px 30px #868686, -15px 15px 30px #ffffff;
+}
+span {
+  font-size: 1vhw;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border-style: border-box;
+  color: white;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.left-section {
+  align-self: center;
+  background-color: rgba(122, 139, 155, 0.663);
+  height: 100vh;
+}
+.right-section {
+  place-self: center;
+  height: 100vh;
+  width: 80vw;
+}
+
+.title {
+  text-align: center;
+  font-size: 5vh;
+  height: fit-content;
+}
